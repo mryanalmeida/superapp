@@ -1,0 +1,12 @@
+{
+  "name": "Cálculo de Média",
+  "start_url": "/superapp",
+  "display": "standalone",
+  "icons": [
+      {
+          "src": "img/logo.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ]
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Cálculo de Média</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Cálculo de Média</h1>
+        <div class="aluno-info">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required aria-required="true">
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" required aria-required="true" min="1">
+
+            <label for="ano">Ano:</label>
+            <input type="number" id="ano" required aria-required="true" min="1">
+        </div>
+
+        <div class="materia">
+            <h2>Notas das Matérias</h2>
+            <div id="materias">
+
+                <h3>Matemática</h3>
+                <input type="number" id="materia1n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia1n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia1n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia1n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Biologia</h3>
+                <input type="number" id="materia2n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia2n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia2n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia2n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Inglês</h3>
+                <input type="number" id="materia3n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia3n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia3n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia3n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Química</h3>
+                <input type="number" id="materia4n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia4n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia4n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia4n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Filosofia</h3>
+                <input type="number" id="materia5n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia5n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia5n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia5n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>História</h3>
+                <input type="number" id="materia6n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia6n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia6n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia6n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Educação Física</h3>
+                <input type="number" id="materia7n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia7n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia7n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia7n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Geografia</h3>
+                <input type="number" id="materia8n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia8n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia8n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia8n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Português</h3>
+                <input type="number" id="materia9n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia9n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia9n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia9n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Física</h3>
+                <input type="number" id="materia10n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia10n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia10n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia10n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Artes</h3>
+                <input type="number" id="materia11n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia11n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia11n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia11n4" placeholder="4º Bimestre" required max="10" min="0">
+
+                <h3>Sociologia</h3>
+                <input type="number" id="materia12n1" placeholder="1º Bimestre" required max="10" min="0">
+                <input type="number" id="materia12n2" placeholder="2º Bimestre" required max="10" min="0">
+                <input type="number" id="materia12n3" placeholder="3º Bimestre" required max="10" min="0">
+                <input type="number" id="materia12n4" placeholder="4º Bimestre" required max="10" min="0">
+
+
+            </div>
+        </div>
+
+        <button id="calcular">Calcular</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
